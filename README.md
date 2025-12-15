@@ -96,18 +96,20 @@ You can open these `.tex` files directly, copy the contents over or include them
   H^{8}(00)  &= -\rho _{00}^{8,00}\\ 
 \end{align*}
 ```
-$$ % Auto-generated H^{\alpha}(L,M)
- \begin{align*} 
-  H^{0}(00)  &= \rho _{00}^{0,00}\\ 
-  H^{1}(00)  &= -\rho _{00}^{1,00}\\ 
-  H^{2}(00)  &= -\rho _{00}^{2,00}\\ 
-  H^{3}(00)  &= -\rho _{00}^{3,00}\\ 
-  H^{4}(00)  &= -\rho _{00}^{4,00}\\ 
-  H^{5}(00)  &= -\rho _{00}^{5,00}\\ 
-  H^{6}(00)  &= -\rho _{00}^{6,00}\\ 
-  H^{7}(00)  &= -\rho _{00}^{7,00}\\ 
-  H^{8}(00)  &= -\rho _{00}^{8,00}\\ 
-\end{align*} $$
+```math
+% Auto-generated H^{\alpha}(L,M)
+\begin{align*} 
+H^{0}(00)  &= \rho _{00}^{0,00}\\ 
+H^{1}(00)  &= -\rho _{00}^{1,00}\\ 
+H^{2}(00)  &= -\rho _{00}^{2,00}\\ 
+H^{3}(00)  &= -\rho _{00}^{3,00}\\ 
+H^{4}(00)  &= -\rho _{00}^{4,00}\\ 
+H^{5}(00)  &= -\rho _{00}^{5,00}\\ 
+H^{6}(00)  &= -\rho _{00}^{6,00}\\ 
+H^{7}(00)  &= -\rho _{00}^{7,00}\\ 
+H^{8}(00)  &= -\rho _{00}^{8,00}\\ 
+\end{align*} 
+```
 
 **sdmes_expanded.tex** (excerpt):
 ```latex
@@ -124,18 +126,20 @@ $$ % Auto-generated H^{\alpha}(L,M)
     \rho _{00}^{8,00} &= -2 \sqrt{2} \Im\left(S_{L,0}^- S_{T,0}^-{}^*\right) \\ 
     \end{align*}
 ```
-$$     % Expanded SDMEs in reflectivity basis 
-    \begin{align*}
-    \rho _{00}^{0,00} &= 2 \left(\left| S_{T,0}^-\right| {}^2+\left| S_{T,0}^+\right| {}^2\right) \\ 
-    \rho _{00}^{1,00} &= 2 \left(\left| S_{T,0}^-\right| {}^2-\left| S_{T,0}^+\right| {}^2\right) \\ 
-    \rho _{00}^{2,00} &= 0 \\ 
-    \rho _{00}^{3,00} &= 0 \\ 
-    \rho _{00}^{4,00} &= 2 \left(\left| S_{L,0}^-\right| {}^2+\left| S_{L,0}^+\right| {}^2\right) \\ 
-    \rho _{00}^{5,00} &= -2 i \sqrt{2} \Im\left(S_{L,0}^- S_{T,0}^-{}^*+S_{L,0}^+ S_{T,0}^+{}^*\right) \\ 
-    \rho _{00}^{6,00} &= -2 \sqrt{2} \Im\left(S_{L,0}^- S_{T,0}^-{}^*\right) \\ 
-    \rho _{00}^{7,00} &= -2 \sqrt{2} \Re\left(S_{L,0}^+ S_{T,0}^+{}^*\right) \\ 
-    \rho _{00}^{8,00} &= -2 \sqrt{2} \Im\left(S_{L,0}^- S_{T,0}^-{}^*\right) \\ 
-    \end{align*} $$
+```math     
+% Expanded SDMEs in reflectivity basis 
+\begin{align*}
+\rho _{00}^{0,00} &= 2 \left(\left| S_{T,0}^-\right| {}^2+\left| S_{T,0}^+\right| {}^2\right) \\ 
+\rho _{00}^{1,00} &= 2 \left(\left| S_{T,0}^-\right| {}^2-\left| S_{T,0}^+\right| {}^2\right) \\ 
+\rho _{00}^{2,00} &= 0 \\ 
+\rho _{00}^{3,00} &= 0 \\ 
+\rho _{00}^{4,00} &= 2 \left(\left| S_{L,0}^-\right| {}^2+\left| S_{L,0}^+\right| {}^2\right) \\ 
+\rho _{00}^{5,00} &= -2 i \sqrt{2} \Im\left(S_{L,0}^- S_{T,0}^-{}^*+S_{L,0}^+ S_{T,0}^+{}^*\right) \\ 
+\rho _{00}^{6,00} &= -2 \sqrt{2} \Im\left(S_{L,0}^- S_{T,0}^-{}^*\right) \\ 
+\rho _{00}^{7,00} &= -2 \sqrt{2} \Re\left(S_{L,0}^+ S_{T,0}^+{}^*\right) \\ 
+\rho _{00}^{8,00} &= -2 \sqrt{2} \Im\left(S_{L,0}^- S_{T,0}^-{}^*\right) \\ 
+\end{align*} 
+```
 **MomentsWaves.tex** (excerpt):
 ```latex
 % Auto-generated H^{\alpha}(L,M)
@@ -151,18 +155,20 @@ $$     % Expanded SDMEs in reflectivity basis
   H^{8}(00)  &= -2 \sqrt{2} \Im\left(S_{L,0}^- S_{T,0}^-{}^*\right) \\ 
 \end{align*}
 ```
-$$ % Auto-generated H^{\alpha}(L,M)
- \begin{align*} 
-  H^{0}(00)  &= -2 \left(\left| S_{T,0}^-\right| {}^2+\left| S_{T,0}^+\right| {}^2\right) \\ 
-  H^{1}(00)  &= 2 \left(\left| S_{T,0}^-\right| {}^2-\left| S_{T,0}^+\right| {}^2\right) \\ 
-  H^{2}(00)  &= 0 \\ 
-  H^{3}(00)  &= 0 \\ 
-  H^{4}(00)  &= 2 \left(\left| S_{L,0}^-\right| {}^2+\left| S_{L,0}^+\right| {}^2\right) \\ 
-  H^{5}(00)  &= -2 i \sqrt{2} \Im\left(S_{L,0}^- S_{T,0}^-{}^*+S_{L,0}^+ S_{T,0}^+{}^*\right) \\ 
-  H^{6}(00)  &= -2 \sqrt{2} \Im\left(S_{L,0}^- S_{T,0}^-{}^*\right) \\ 
-  H^{7}(00)  &= -2 \sqrt{2} \Re\left(S_{L,0}^+ S_{T,0}^+{}^*\right) \\ 
-  H^{8}(00)  &= -2 \sqrt{2} \Im\left(S_{L,0}^- S_{T,0}^-{}^*\right) \\ 
-\end{align*} $$
+```math 
+% Auto-generated H^{\alpha}(L,M)
+\begin{align*} 
+H^{0}(00)  &= -2 \left(\left| S_{T,0}^-\right| {}^2+\left| S_{T,0}^+\right| {}^2\right) \\ 
+H^{1}(00)  &= 2 \left(\left| S_{T,0}^-\right| {}^2-\left| S_{T,0}^+\right| {}^2\right) \\ 
+H^{2}(00)  &= 0 \\ 
+H^{3}(00)  &= 0 \\ 
+H^{4}(00)  &= 2 \left(\left| S_{L,0}^-\right| {}^2+\left| S_{L,0}^+\right| {}^2\right) \\ 
+H^{5}(00)  &= -2 i \sqrt{2} \Im\left(S_{L,0}^- S_{T,0}^-{}^*+S_{L,0}^+ S_{T,0}^+{}^*\right) \\ 
+H^{6}(00)  &= -2 \sqrt{2} \Im\left(S_{L,0}^- S_{T,0}^-{}^*\right) \\ 
+H^{7}(00)  &= -2 \sqrt{2} \Re\left(S_{L,0}^+ S_{T,0}^+{}^*\right) \\ 
+H^{8}(00)  &= -2 \sqrt{2} \Im\left(S_{L,0}^- S_{T,0}^-{}^*\right) \\ 
+\end{align*} 
+```
 **IntensitiesAnalytic.tex** (excerpt):
 ```latex
 % Auto-generated H^{\alpha}(L,M)
@@ -178,18 +184,20 @@ $$ % Auto-generated H^{\alpha}(L,M)
   I^{8} &= \frac{1}{4 \pi }\left[\rho _{00}^{8,00}\right] \\ 
 \end{align*}
 ```
-$$ % Auto-generated H^{\alpha}(L,M)
- \begin{align*} 
-  I^{0} &= \frac{1}{4 \pi }\left[\rho _{00}^{0,00}\right] \\ 
-  I^{1} &= \frac{1}{4 \pi }\left[\rho _{00}^{1,00}\right] \\ 
-  I^{2} &= \frac{1}{4 \pi }\left[\rho _{00}^{2,00}\right] \\ 
-  I^{3} &= \frac{1}{4 \pi }\left[\rho _{00}^{3,00}\right] \\ 
-  I^{4} &= \frac{1}{4 \pi }\left[\rho _{00}^{4,00}\right] \\ 
-  I^{5} &= \frac{1}{4 \pi }\left[\rho _{00}^{5,00}\right] \\ 
-  I^{6} &= \frac{1}{4 \pi }\left[\rho _{00}^{6,00}\right] \\ 
-  I^{7} &= \frac{1}{4 \pi }\left[\rho _{00}^{7,00}\right] \\ 
-  I^{8} &= \frac{1}{4 \pi }\left[\rho _{00}^{8,00}\right] \\ 
-\end{align*} $$
+```math 
+% Auto-generated H^{\alpha}(L,M)
+\begin{align*} 
+I^{0} &= \frac{1}{4 \pi }\left[\rho _{00}^{0,00}\right] \\ 
+I^{1} &= \frac{1}{4 \pi }\left[\rho _{00}^{1,00}\right] \\ 
+I^{2} &= \frac{1}{4 \pi }\left[\rho _{00}^{2,00}\right] \\ 
+I^{3} &= \frac{1}{4 \pi }\left[\rho _{00}^{3,00}\right] \\ 
+I^{4} &= \frac{1}{4 \pi }\left[\rho _{00}^{4,00}\right] \\ 
+I^{5} &= \frac{1}{4 \pi }\left[\rho _{00}^{5,00}\right] \\ 
+I^{6} &= \frac{1}{4 \pi }\left[\rho _{00}^{6,00}\right] \\ 
+I^{7} &= \frac{1}{4 \pi }\left[\rho _{00}^{7,00}\right] \\ 
+I^{8} &= \frac{1}{4 \pi }\left[\rho _{00}^{8,00}\right] \\ 
+\end{align*} 
+```
 ## Troubleshooting
 - "Cannot create results directory": See the note above about replacing `NotebookDirectory[]` with a `$InputFileName`/`Directory[]` fallback when running from CLI.
 - "wolframscript: command not found": Ensure Wolfram Engine or Mathematica is installed and `wolframscript` is on your PATH.
