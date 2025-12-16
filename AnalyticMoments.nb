@@ -148,7 +148,7 @@ Cell[BoxData[{
    RowBox[{"Switch", "[", 
     RowBox[{"eps", ",", "1", ",", "\"\<+\>\"", ",", 
      RowBox[{"-", "1"}], ",", "\"\<-\>\"", ",", "_", ",", "\"\<+\>\""}], 
-    "]"}]}], ";"}], "\[IndentingNewLine]", 
+    "]"}]}], ";"}], "\[IndentingNewLine]",
  RowBox[{
   RowBox[{
    RowBox[{
@@ -209,6 +209,16 @@ Cell[BoxData[{
       RowBox[{"lToWave", "[", "l", "]"}], ")"}], 
      RowBox[{"L", ",", "m"}], 
      RowBox[{"epsToStr", "[", "eps", "]"}]]}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]",
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "Positive", " ", "reflectivity", " ", "longitudinal", " ", "waves", " ", 
+    "are", " ", "set", " ", "to", " ", "0", " ", "due", " ", "to", " ", 
+    "symmetry", " ", "args"}], " ", "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"L", "/:", 
+   RowBox[{"L", "[", 
+    RowBox[{"l_", ",", "1", ",", "0"}], "]"}], ":=", "0"}], 
   "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
